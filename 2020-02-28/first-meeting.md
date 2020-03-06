@@ -324,16 +324,10 @@ Ortogonalidade é um conceito crítico se você quer produzir sistemas que são 
 
 ## O que é Ortogonalidade?
 
-```
-▲ 1
-│
-│
-│
-│
-│
-◯               2
-  ◯─────────────▶
-```
+<center>
+  <img src="./attatchments/orthogonal-lines.png"></mg>
+</center>
+
 "Ortogonalidade" é um termo emprestado da geometria. Duas linhas são ortogonais se elas se encontram em ângulos retos, tal como os eixos do gráfico. Em termos de vetores, as duas linhas são independentes. À medida que o número 1 no diagrama se move para o norte, ele não muda o quão leste ou oeste está. O número 2 se move para o leste, mas não para o norte ou sul.
 
 Na computação, o termo passou a significar um tipo de independência ou dissociação. Duas ou mais coisas são ortogonais se mudanças em um não afetam qualquer um dos outros. Em um sistema bem projetado, o banco de dados é ortogonal à interface de usuário: você pode mudar a interface sem afetar o banco de dados, e trocar de banco de dados sem mudar a interface.
